@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit Burst Site</title>
+    <!-- favicon link  -->
+    <link rel="shortcut icon" href="./images/fruit4.png" type="image/x-icon">
     <!-- tailwind link  -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- daisy link  -->
@@ -18,7 +20,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
-    <!-- iconic icons link  -->
+    <!-- ionic icons link  -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <style>
@@ -55,9 +57,9 @@
                         </form>
                     </div>
                 </div>
-                <!-- <input type="checkbox" id="check"> -->
+                 <!-- menu icon  -->
                 <span class="text-3xl cursor-pointer lg:hidden">
-                    <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+                    <ion-icon name="menu"></ion-icon>
                 </span>
             </div>
         </nav>
@@ -66,12 +68,13 @@
         <!-- banner section starts here  -->
         <section class="max-w-7xl mx-5 lg:mx-auto my-14 ">
             <div class="carousel w-full">
+                <!-- slide 1  -->
                 <div id="slide1" class="carousel-item w-full relative bg-gradient-to-b from-gray-800 to-slate-600 h-full">
                     <div
                         class="absolute text-white text-center top-8 left-20 md:top-12 md:left-64 space-y-2 lg:top-16 lg:left-80">
                         <h1 class="lg:text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
                         <p class="lg:text-xl font-medium lg:mt-6 lg:mb-8">We supply highly quality organic products</p>
-                        <button class="btn btn-primary bg-[#F85559] border-0 text-white z-10">Shop Now</button>
+                        <button class="btn btn-primary bg-[#F85559] border-0 text-white ">Shop Now</button>
                     </div>
                     <img src="./images/banner1.png" class="w-full h-full mix-blend-overlay" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -79,12 +82,13 @@
                         <a href="#slide2" class="btn btn-circle">❯</a>
                     </div>
                 </div>
+                <!-- slide 2 -->
                 <div id="slide2" class="carousel-item relative w-full bg-gradient-to-b from-gray-800 to-slate-600 h-full">
                     <div
                         class="absolute text-white text-center top-8 left-20 md:top-12 md:left-64 space-y-2 lg:top-16 lg:left-80">
                         <h1 class="lg:text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
                         <p class="lg:text-xl font-medium lg:mt-6 lg:mb-8">We supply highly quality organic products</p>
-                        <button class="btn btn-primary bg-[#F85559] border-0 text-white z-10">Shop Now</button>
+                        <button class="btn btn-primary bg-[#F85559] border-0 text-white ">Shop Now</button>
                     </div>
                     <img src="./images/banner2.png" class="w-full h-full mix-blend-overlay" />
                     <div class="hero-overlay bg-opacity-60"></div>
@@ -93,12 +97,13 @@
                         <a href="#slide3" class="btn btn-circle">❯</a>
                     </div>
                 </div>
+                <!-- slide 3  -->
                 <div id="slide3" class="carousel-item relative w-full bg-gradient-to-b from-gray-800 to-slate-600 h-full">
                     <div
                         class="absolute text-white text-center top-8 left-20 md:top-12 md:left-64 space-y-2 lg:top-16 lg:left-80">
                         <h1 class="lg:text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
                         <p class="lg:text-xl font-medium lg:mt-6 lg:mb-8">We supply highly quality organic products</p>
-                        <button class="btn btn-primary bg-[#F85559] border-0 text-white z-10">Shop Now</button>
+                        <button class="btn btn-primary bg-[#F85559] border-0 text-white ">Shop Now</button>
                     </div>
                     <img src="./images/banner3.png" class="w-full h-full mix-blend-overlay" />
                     <div class="hero-overlay bg-opacity-60"></div>
@@ -107,12 +112,13 @@
                         <a href="#slide4" class="btn btn-circle">❯</a>
                     </div>
                 </div>
+                <!-- slide 4  -->
                 <div id="slide4" class="carousel-item relative w-full bg-gradient-to-b from-gray-800 to-slate-600 h-full">
                     <div
                         class="absolute text-white text-center top-8 left-20 md:top-12 md:left-64 space-y-2 lg:top-16 lg:left-80">
                         <h1 class="lg:text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
                         <p class="lg:text-xl font-medium lg:mt-6 lg:mb-8">We supply highly quality organic products</p>
-                        <button class="btn btn-primary bg-[#F85559] border-0 text-white z-10">Shop Now</button>
+                        <button class="btn btn-primary bg-[#F85559] border-0 text-white ">Shop Now</button>
                     </div>
                     <img src="./images/banner4.png" class="w-full h-full mix-blend-overlay" />
                     <div class="hero-overlay bg-opacity-60"></div>
@@ -147,8 +153,8 @@
         <!-- deal of the day section starts here  -->
         <section class="max-w-7xl mx-5 lg:mx-auto my-14 md:mt-32 lg:mt-44">
             <div>
-                <div
-                    class="flex flex-col md:flex-col space-y-10 lg:flex-row justify-center items-center md:justify-between md:items-center lg:justify-between lg:items-center">
+                <div class="flex flex-col md:flex-col space-y-10 lg:flex-row justify-center items-center md:justify-between md:items-center lg:justify-between lg:items-center">
+                    <!-- deal title and description  -->
                     <div class="flex flex-col text-center lg:justify-start lg:text-start">
                         <h1 class="text-5xl font-extrabold text-[#121212]">Deal of the day</h1>
                         <p class="font-medium text-[#12121299] mt-6 lg:pr-96">Contrary to popular belief, is not simply
@@ -156,6 +162,7 @@
                             text. It has roots in a piece of classical Latin literature from 45 BC, making it over
                             2000 years old.</p>
                     </div>
+                    <!-- deal countdown here  -->
                     <div class="flex gap-5">
                         <div class="flex gap-2 justify-center items-center">
                             <div class="flex flex-col justify-center items-center">
@@ -206,7 +213,9 @@
                         </div>
                     </div>
                 </div>
+                <!-- deal cards starts here  -->
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
+                    <!-- deal card 1 starts here  -->
                     <div class="flex flex-col justify-center items-center border p-12 rounded-lg">
                         <img src="./images/fruit6.png" alt="">
                         <h1 class="text-2xl font-bold text-[#121212] mt-12">12.90$ - 18.85$</h1>
@@ -226,6 +235,7 @@
                             <input type="radio" name="rating-1" class="bg-red-400 mask mask-star-2 mask-half-1" />
                             <input type="radio" name="rating-1" class="bg-red-400 mask mask-star-2 mask-half-2" />
                         </div>
+                        <!-- deal card 1 modal starts here  -->
                         <button class="text-[#f85559]" onclick="my_modal_1.showModal()">Details</button>
                         <dialog id="my_modal_1" class="modal">
                             <form method="dialog" class="modal-box text-center">
@@ -265,6 +275,7 @@
                             </form>
                         </dialog>
                     </div>
+                    <!-- deal card 2 starts here  -->
                     <div class="flex flex-col justify-center items-center border p-12 rounded-lg">
                         <img src="./images/fruit7.png" alt="">
                         <h1 class="text-2xl font-bold text-[#121212] mt-12">12.90$ - 18.85$</h1>
@@ -284,6 +295,7 @@
                             <input type="radio" name="rating-2" class="bg-red-400 mask mask-star-2 mask-half-1" />
                             <input type="radio" name="rating-2" class="bg-red-400 mask mask-star-2 mask-half-2" />
                         </div>
+                        <!-- deal card 2 modal starts here  -->
                         <button class="text-[#f85559]" onclick="my_modal_2.showModal()">Details</button>
                         <dialog id="my_modal_2" class="modal">
                             <form method="dialog" class="modal-box text-center">
@@ -323,6 +335,7 @@
                             </form>
                         </dialog>
                     </div>
+                    <!-- deal card 3 starts here  -->
                     <div class="flex flex-col justify-center items-center border p-12 rounded-lg">
                         <img src="./images/fruit8.png" alt="">
                         <h1 class="text-2xl font-bold text-[#121212] mt-12">12.90$ - 18.85$</h1>
@@ -342,6 +355,7 @@
                             <input type="radio" name="rating-3" class="bg-red-400 mask mask-star-2 mask-half-1" />
                             <input type="radio" name="rating-3" class="bg-red-400 mask mask-star-2 mask-half-2" />
                         </div>
+                        <!-- deal card 3 modal starts here  -->
                         <button class="text-[#f85559]" onclick="my_modal_3.showModal()">Details</button>
                         <dialog id="my_modal_3" class="modal">
                             <form method="dialog" class="modal-box text-center">
@@ -381,6 +395,7 @@
                             </form>
                         </dialog>
                     </div>
+                    <!-- deal card 4 starts here  -->
                     <div class="flex flex-col justify-center items-center border p-12 rounded-lg">
                         <img src="./images/fruit9.png" alt="">
                         <h1 class="text-2xl font-bold text-[#121212] mt-12">12.90$ - 18.85$</h1>
@@ -400,7 +415,7 @@
                             <input type="radio" name="rating-4" class="bg-red-400 mask mask-star-2 mask-half-1" />
                             <input type="radio" name="rating-4" class="bg-red-400 mask mask-star-2 mask-half-2" />
                         </div>
-                        <!-- Open the modal using ID.showModal() method -->
+                        <!-- deal card 4 modal starts here  -->
                         <button class="text-[#f85559]" onclick="my_modal_4.showModal()">Details</button>
                         <dialog id="my_modal_4" class="modal">
                             <form method="dialog" class="modal-box text-center">
@@ -457,8 +472,9 @@
                             <p class="mb-5">Contrary to popular belief, is not simply random text. It has roots in a
                                 piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                         </div>
-                        <div
-                            class="flex flex-col md:flex-row lg:flex-row justify-between items-center gap-10 md:gap-1 lg:gap-20">
+                        <!-- meet section cards starts here  -->
+                        <div class="flex flex-col md:flex-row lg:flex-row justify-between items-center gap-10 md:gap-1 lg:gap-20">
+                            <!-- meet card 1 starts here  -->
                             <div class="flex flex-col justify-center items-center">
                                 <div>
                                     <img src="./images/member1.png" alt="">
@@ -472,6 +488,7 @@
                                     <div class="text-xl"><i class="fa-brands fa-linkedin"></i></div>
                                 </div>
                             </div>
+                            <!-- meet card 2 starts here  -->
                             <div class="flex flex-col justify-center items-center">
                                 <div>
                                     <img src="./images/member2.png" alt="">
@@ -485,6 +502,7 @@
                                     <div class="text-xl"><i class="fa-brands fa-linkedin"></i></div>
                                 </div>
                             </div>
+                            <!-- meet card 3 starts here  -->
                             <div class="flex flex-col justify-center items-center">
                                 <div>
                                     <img src="./images/member3.png" alt="">
@@ -498,6 +516,7 @@
                                     <div class="text-xl"><i class="fa-brands fa-linkedin"></i></div>
                                 </div>
                             </div>
+                            <!-- meet card 4 starts here  -->
                             <div class="flex flex-col justify-center items-center">
                                 <div>
                                     <img src="./images/member4.png" alt="">
