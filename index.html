@@ -18,6 +18,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- iconic icons link  -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <style>
         body {
             font-family: 'Lato', sans-serif;
@@ -40,7 +43,8 @@
                     </ul>
                 </div>
                 <div class="lg:w-2/3 flex flex-1 gap-40">
-                    <div class="navbar-start flex justify-start items-start pl-0 ml-0 md:justify-start md:items-center lg:justify-center lg:items-center lg:navbar-center gap-3 w-1/2">
+                    <div
+                        class="navbar-start flex justify-start items-start pl-0 ml-0 md:justify-start md:items-center lg:justify-center lg:items-center lg:navbar-center gap-3 w-1/2">
                         <img src="./images/fruit4.png" class="w-7 h-8 md:w-12 md:h-14" alt="">
                         <h1 class="text-xl lg:text-4xl font-bold">Fruit Burst</h1>
                     </div>
@@ -52,9 +56,9 @@
                     </div>
                 </div>
                 <!-- <input type="checkbox" id="check"> -->
-                <label for="check" class="text-black text-2xl lg:hidden">
-                    <i class="fas fa-bars"></i>
-                </label>
+                <span class="text-3xl cursor-pointer lg:hidden">
+                    <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+                </span>
             </div>
         </nav>
     </header>
@@ -62,55 +66,55 @@
         <!-- banner section starts here  -->
         <section class="max-w-7xl mx-5 lg:mx-auto my-14 ">
             <div class="carousel w-full">
-                <div id="slide1" class="carousel-item relative w-full relative">
+                <div id="slide1" class="carousel-item w-full relative bg-gradient-to-b from-gray-800 to-slate-600 h-full">
                     <div
                         class="absolute text-white text-center top-8 left-20 md:top-12 md:left-64 space-y-2 lg:top-16 lg:left-80">
                         <h1 class="lg:text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
                         <p class="lg:text-xl font-medium lg:mt-6 lg:mb-8">We supply highly quality organic products</p>
-                        <button class="btn btn-primary bg-[#F85559] border-0 text-white">Shop Now</button>
+                        <button class="btn btn-primary bg-[#F85559] border-0 text-white z-10">Shop Now</button>
                     </div>
-                    <img src="./images/banner1.png" class="w-full" />
+                    <img src="./images/banner1.png" class="w-full h-full mix-blend-overlay" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide4" class="btn btn-circle">❮</a>
                         <a href="#slide2" class="btn btn-circle">❯</a>
                     </div>
                 </div>
-                <div id="slide2" class="carousel-item relative w-full">
+                <div id="slide2" class="carousel-item relative w-full bg-gradient-to-b from-gray-800 to-slate-600 h-full">
                     <div
                         class="absolute text-white text-center top-8 left-20 md:top-12 md:left-64 space-y-2 lg:top-16 lg:left-80">
                         <h1 class="lg:text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
                         <p class="lg:text-xl font-medium lg:mt-6 lg:mb-8">We supply highly quality organic products</p>
-                        <button class="btn btn-primary bg-[#F85559] border-0 text-white">Shop Now</button>
+                        <button class="btn btn-primary bg-[#F85559] border-0 text-white z-10">Shop Now</button>
                     </div>
-                    <img src="./images/banner2.png" class="w-full" />
+                    <img src="./images/banner2.png" class="w-full h-full mix-blend-overlay" />
                     <div class="hero-overlay bg-opacity-60"></div>
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide1" class="btn btn-circle">❮</a>
                         <a href="#slide3" class="btn btn-circle">❯</a>
                     </div>
                 </div>
-                <div id="slide3" class="carousel-item relative w-full">
+                <div id="slide3" class="carousel-item relative w-full bg-gradient-to-b from-gray-800 to-slate-600 h-full">
                     <div
                         class="absolute text-white text-center top-8 left-20 md:top-12 md:left-64 space-y-2 lg:top-16 lg:left-80">
                         <h1 class="lg:text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
                         <p class="lg:text-xl font-medium lg:mt-6 lg:mb-8">We supply highly quality organic products</p>
-                        <button class="btn btn-primary bg-[#F85559] border-0 text-white">Shop Now</button>
+                        <button class="btn btn-primary bg-[#F85559] border-0 text-white z-10">Shop Now</button>
                     </div>
-                    <img src="./images/banner3.png" class="w-full" />
+                    <img src="./images/banner3.png" class="w-full h-full mix-blend-overlay" />
                     <div class="hero-overlay bg-opacity-60"></div>
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide2" class="btn btn-circle">❮</a>
                         <a href="#slide4" class="btn btn-circle">❯</a>
                     </div>
                 </div>
-                <div id="slide4" class="carousel-item relative w-full">
+                <div id="slide4" class="carousel-item relative w-full bg-gradient-to-b from-gray-800 to-slate-600 h-full">
                     <div
                         class="absolute text-white text-center top-8 left-20 md:top-12 md:left-64 space-y-2 lg:top-16 lg:left-80">
                         <h1 class="lg:text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
                         <p class="lg:text-xl font-medium lg:mt-6 lg:mb-8">We supply highly quality organic products</p>
-                        <button class="btn btn-primary bg-[#F85559] border-0 text-white">Shop Now</button>
+                        <button class="btn btn-primary bg-[#F85559] border-0 text-white z-10">Shop Now</button>
                     </div>
-                    <img src="./images/banner4.png" class="w-full" />
+                    <img src="./images/banner4.png" class="w-full h-full mix-blend-overlay" />
                     <div class="hero-overlay bg-opacity-60"></div>
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide3" class="btn btn-circle">❮</a>
